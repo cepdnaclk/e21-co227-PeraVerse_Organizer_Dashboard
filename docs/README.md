@@ -3,8 +3,8 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: cepdnaclk/e21-co227-PeraVerse_Organizer_Dashboard
-title: PeraVerse-Organizer-Dashboard-Group-B
+repository-name: cepdnaclk/e21-co227-PeraVerse-Organizer-Dashboard-Team2
+title: Organizer Dashboard of the Engex exhibition crowd management system
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
