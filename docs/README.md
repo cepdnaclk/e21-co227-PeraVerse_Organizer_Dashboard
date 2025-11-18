@@ -91,49 +91,20 @@ This enhances organizer efficiency, improves coordination, and ensures smooth ma
 
    **b)Backend**
 
-   *Api gateway*
-   ```bash
-   cd backend/backend/api-gateway
-   npm install
-   ```
-
-   *Auth service*
-   ```bash
-   cd backend/backend/services/auth-service
-   npm install
-   ```
-
-   *Alert service*
-   ```bash
-   cd backend/backend/services/alert-service
-   npm install
-   ```
 
    *Websocket for kiosk*
    ```bash
    cd backend/backend/tools
    npm install
    ```
-
-   *Building service*
+   *For Each Service*
    ```bash
-   cd backend/backend/services/building-service
-   npm install
+   # go inside each service and run the follwing command in the directory where the src file is situated
+   nodemon index
    ```
+   
 
-   *Event service*
-   ```bash
-   cd backend/backend/services/event-service
-   npm install
-   ```
-
-   *Organizer management service*
-   ```bash
-   cd backend/backend/services/orgMng-service
-   npm install
-   ```
-
- 3.  **Environmental Variables : Edit .env file inside the backend:**
+ 4.  **Environmental Variables : Edit .env file inside the backend:**
      ```bash
      PORT=5000
      BASE_URL=http://localhost:5000
@@ -149,7 +120,7 @@ This enhances organizer efficiency, improves coordination, and ensures smooth ma
      ```
 
 
-4. **Running the System Locally**
+5. **Running the System Locally**
 
     **a) Frontend**
     ```bash
