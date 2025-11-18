@@ -133,7 +133,22 @@ This enhances organizer efficiency, improves coordination, and ensures smooth ma
    npm install
    ```
 
-   
+ 3.  **Environmental Variables : Edit .env file inside the backend:**
+     ```bash
+     PORT=5000
+     BASE_URL=http://localhost:5000
+     JWT_SECRET=”Your JWT secret key”
+     DB_USER=postgres
+     DB_PASSWORD=”Your database password”
+     DB_HOST=localhost
+     DB_PORT=5432
+     DB_NAME=organizer_dashboard
+     ADMIN_EMAIL=”Email sending approval request to admin”
+     ADMIN_PASSWORD=”your-app-password for ADMIN_EMAIL”
+     ADMIN_NOTIFY_EMAIL=”Admin’s email(this email receives the approval request)
+     ```
+    
+    
    
 
    
