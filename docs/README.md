@@ -100,7 +100,7 @@ This enhances organizer efficiency, improves coordination, and ensures smooth ma
    *For Each Service*
    ```bash
    # go inside each service and run the follwing command in the directory where the src file is situated
-   nodemon index
+   npm install
    ```
    
 
@@ -122,13 +122,15 @@ This enhances organizer efficiency, improves coordination, and ensures smooth ma
 
 5. **Running the System Locally**
 
-    **a) Frontend**
+    **a) Frontend : will be running on http://localhost:5173**
     ```bash
     cd frontend
     npm run dev
+    #Then naviaget to the http://localhost:5173/dashboard/
     ```
+    
 
-    **b) Backend**
+    **b) Backend : will be running on http://localhost:5000**
     ``` bash
     # Websocket for kiosk : first you have to run the web socket
     cd backend/backend/tools
@@ -136,6 +138,9 @@ This enhances organizer efficiency, improves coordination, and ensures smooth ma
     
     # Then go inside each service and run the follwing command inside the directory where the index.js file is situated
     nodemon index
+
+
+    
 
     
 ## Links
